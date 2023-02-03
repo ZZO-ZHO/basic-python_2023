@@ -13,7 +13,7 @@ class Person:
     #     self.gender = 'M'
     #     self.blood_type = 'AB'
 
-    def __init__(self, name, height, gender) -> None:
+    def __init__(self, name = '홍길동', height = 170, gender = 'male') -> None:
         self.name = name
         self.height = height
         self.gender = gender
@@ -31,12 +31,12 @@ class Person:
     def stop(self):
         print(f'{self.name}이(가) 멈춥니다.')
 
+    def __str__(self) -> str:
+        return f'출력 : 이름은 {self.name}, 성별은 {self.gender} 입니다.'
+
 
 # 2. 생성자외 매직메서드(평선) __str__
 
-
-def __str__(self) -> str:
-  return f'출력 : 이름은 {self.name}, 성별은 {self.gender} 입니다.'
 
 '''
 jaeyeong = Person()             # 객체생성을 하면 instance(실체)가 만들어짐
