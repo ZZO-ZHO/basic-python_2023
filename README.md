@@ -68,3 +68,13 @@ print(f'pi는 {pi:10.3f}입니다.')        # pi는      3.142입니다.
 
 ![실행화면](https://raw.githubusercontent.com/ZZO-ZHO/studypython2023/main/images/address_app.png)
 실행파일
+
+## 7일차
+1. 파이썬 응용
+    - 주피터 노트북 사용법
+        - 노트북 생성
+    - 리스트 연산 추가
+    - 자료구조 추가
+    - 라이브러리 사용법
+    - 윈폼 개발(GUI)
+    - 응용 학습
