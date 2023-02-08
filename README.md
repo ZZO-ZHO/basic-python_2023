@@ -86,7 +86,8 @@ print(f'pi는 {pi:10.3f}입니다.')        # pi는      3.142입니다.
         - 기상청 오늘의 날씨 크롤링
         - 데이터포털 OpenAPI 크롤링
         - BeautifulSoup 크롤링
-![실행화면] (https://raw.githubusercontent.com/ZZO-ZHO/studypython2023/main/images/folium.png)
+
+![실행화면](https://raw.githubusercontent.com/ZZO-ZHO/studypython2023/main/images/folium.png)
 
 folium Open API 연동화면
 
